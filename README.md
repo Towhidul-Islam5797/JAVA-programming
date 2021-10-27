@@ -1,2 +1,3 @@
 # Java-Programming
-Hello This is my Java programming sessions uploaded in GitHub
+Hello I am Md. Towhidul Islam Rahat
+This is my Java programming sessions uploaded in GitHub
