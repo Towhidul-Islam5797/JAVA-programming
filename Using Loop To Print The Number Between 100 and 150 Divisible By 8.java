@@ -1,5 +1,5 @@
-package using.to.print.the.number.between.pkg100.to.pkg150.divisible.by.pkg8;
-public class UsingToPrintTheNumberBetween100To150DivisibleBy8 {
+package using.loop.to.print.the.number.between.pkg100.and.pkg150.divisible.by.pkg8;
+public class UsingLoopToPrintTheNumberBetween100and150DivisibleBy8 {
     public static void main(String[] args) {
         int n = 150;
         
