@@ -11,10 +11,12 @@ public class PrimeNumber {
         
         int number ;
         number = Scan.nextInt();
-        
+       
+        //for loop for number 0 and 1 since those are not prime
         if(number == 0 || number == 1) {
             System.out.println(number+ " is not a prime number.");
         }
+        //for loop that defines number 2 and 3 as a prime. Since my code was bugginng I created it.
         if(number == 2 || number == 3 ) {
             System.out.println(number+ " is a prime number.");
         }
