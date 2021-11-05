@@ -21,7 +21,13 @@ public class Array2 {
         for(int i = 0; i < a.length; i++) {
             product *=  a[i];
         }
-        System.out.println("The sum of the array elements is :" + product);
+        System.out.println("The product of the array elements is :" + product);
+        
+        double average = 0 ;
+        for(int i = 0; i < a.length; i++) {
+            average = (double) sum /  a.length;
+        }
+        System.out.println("The average of the array elements is :" + average);
     }
     
 }
