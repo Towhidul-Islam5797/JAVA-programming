@@ -2,6 +2,8 @@ package array1;
 public class Array1 {
     public static void main(String[] args) {
         int row, col, sumRow, sumCol, sumD = 0, sumD2 = 0;
+        
+//Initialize 2D array 
         int a[][] = {
             {3, 4, 9},
             {2, 9, 11},
@@ -9,7 +11,8 @@ public class Array1 {
         };
         row = a.length;
         col  = a[0].length;
-        
+      
+//Summation of all row elements  
         for(int i = 0; i < row; i++) {
             sumRow =0;
             for(int j = 0; j < col; j++){
@@ -20,6 +23,7 @@ public class Array1 {
         
         System.out.println();
         
+//Summation of all cllum elements
         for(int i = 0; i < row; i++) {
             sumCol =0;
             for(int j = 0; j < col; j++){
@@ -30,6 +34,11 @@ public class Array1 {
         
         System.out.println();
         
+/*Summation of right daiagonal 
+    |* . .|
+    |. * .|
+    |. . *|
+*/
         for(int i = 0; i< row; i++) {
             for(int j = 0; j < col; j++) {
                 if(i == j) {
@@ -41,6 +50,11 @@ public class Array1 {
         
         System.out.println();
         
+/*Summation of left diagonal 
+    |. . *|
+    |. * .|
+    |* . .|
+*/
         for(int i = 0; i< row; i++) {
             for(int j = 0; j < col; j++) {
                 if(i + j == a.length - 1) {
