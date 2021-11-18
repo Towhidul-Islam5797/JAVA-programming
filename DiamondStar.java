@@ -7,7 +7,7 @@ public class DiamondStar {
         int num ,m = 0,n;
         
         Scanner scan = new Scanner (System.in);
-        System.out.print("Enter the size of the diamond :");
+        System.out.print("Enter the size of the diamond : ");
         num = scan.nextInt();
        
         
@@ -36,5 +36,20 @@ public class DiamondStar {
             System.out.println();
         }
     }
-    
+/*
+Enter the size of the diamond : 7
+      *
+     ***
+    *****
+   *******
+  *********
+ ***********
+*************
+ ***********
+  *********
+   *******
+    *****
+     ***
+      *
+*/
 }
