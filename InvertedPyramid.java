@@ -25,5 +25,13 @@ public class InvertedPyramid {
             System.out.println("");
         }
     }
-    
+/*
+Enter the size of the Inverted Pyramid :6
+10101010101
+ 101010101
+  1010101
+   10101
+    101
+     1
+*/
 }
