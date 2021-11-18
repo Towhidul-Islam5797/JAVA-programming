@@ -18,3 +18,11 @@ public class RightTriangleStar {
     
     }
 }
+/*
+Enter the number of rows : 4
+
+*
+**
+***
+****
+*/
