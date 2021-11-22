@@ -1,11 +1,11 @@
 //Sting program for current time format
-package string2;
+package dateclass;
 
 import java.text.*;
 import  java.util.*;
 import java.time.*;
 
-public class String2 {
+public class DateClass {
     public static void main(String[] args) {
         
         Date date = new Date();
