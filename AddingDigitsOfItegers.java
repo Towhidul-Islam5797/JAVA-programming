@@ -14,7 +14,11 @@ public class AddingDigitsOfItegers {
             temp = temp + (number % 10);
             number /= 10;
         }
-        System.out.println(temp +"");
+        System.out.println("The sum of the digits is : "+ temp);
     }
     
 }
+/* Result :
+Enter a Integer from 0 to 1000 : 999
+The sum of the digits is : 27
+*/
